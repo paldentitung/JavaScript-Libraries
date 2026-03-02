@@ -253,3 +253,9 @@ For audio in the browser.
 var sound = new Howl({ src: ['sound.mp3'] });
 sound.play();
 ```
+## 16. [Clipboard.js](https://clipboardjs.com/)
+
+For copying text to clipboard easily.
+```javascript
+new ClipboardJS('.btn'); // <button class="btn" data-clipboard-text="Hello!">Copy</button>
+```
