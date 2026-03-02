@@ -235,3 +235,13 @@ function App() {
   );
 }
 ```
+ ## 14. [Anime.js](https://animejs.com/)
+
+Lightweight JavaScript animation library for DOM, SVG, and CSS.
+```javascript
+anime({
+  targets: '.box',
+  translateX: 250,
+  duration: 2000
+});
+```
