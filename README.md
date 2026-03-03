@@ -276,4 +276,9 @@ const notyf = new Notyf();
 notyf.success('You did it!');
 notyf.error('Oops, something went wrong.');
 ```
+## 19. [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
 
+For responsive carousels/sliders.
+```javascript
+$('.owl-carousel').owlCarousel({ loop:true, margin:10, nav:true });
+```
