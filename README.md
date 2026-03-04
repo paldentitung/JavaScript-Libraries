@@ -298,3 +298,11 @@ For drag-and-drop list sorting.
 var el = document.getElementById('items');
 var sortable = Sortable.create(el);
 ```
+## 22. [Jarallax](https://github.com/nk-o/jarallax)
+
+For parallax scrolling backgrounds.
+```javascript
+jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.5
+});
+```
