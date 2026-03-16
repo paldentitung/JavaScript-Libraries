@@ -71,5 +71,6 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 | [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) | Responsive carousels | `$('.owl-carousel').owlCarousel({loop:true})` |
 | [Sortable.js](https://sortablejs.github.io/Sortable/) | Drag-and-drop sorting | `Sortable.create(document.getElementById('items'))` |
 | [Jarallax](https://github.com/nk-o/jarallax) | Parallax backgrounds | `jarallax(document.querySelectorAll('.jarallax'), {speed:0.5})` |
+| [SweetAlert2](https://sweetalert2.github.io/) | Beautiful, customizable alerts & modals | `Swal.fire('Hello world!')` |
 
 ---
