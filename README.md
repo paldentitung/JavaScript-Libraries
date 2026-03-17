@@ -12,7 +12,7 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 | [Axios](https://axios-http.com/) | Promise-based HTTP client | `axios.get("https://jsonplaceholder.typicode.com/todos/1")` |
 | [Day.js](https://day.js.org/) | Lightweight date & time manipulation | `dayjs().format("YYYY-MM-DD HH:mm:ss")` |
 | [uuid](https://www.uuidgenerator.net/) | Generate unique IDs | `uuidv4()` |
-
+| [Typed.js](https://mattboldt.com/demos/typed-js/) | Animated typing effects for text | `new Typed('.element', { strings: ["Hello","World"], typeSpeed: 50 })` |
 ---
 
 ## 🎨 Animation & UI Libraries
