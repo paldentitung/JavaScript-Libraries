@@ -79,6 +79,15 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 
 ---
 
+## 🔐 Authentication & Security
+
+| Library | Description | Example |
+|---------|-------------|---------|
+| [JWT](https://jwt.io/) | JSON Web Tokens for authentication | `const token = jwt.sign({ id: user.id }, secret);` |
+| [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) | Password hashing | `const hash = bcrypt.hashSync('password', 10);` |
+
+---
+
 ## 🛠️ Miscellaneous Libraries
 
 | Library | Description | Example |
