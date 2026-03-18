@@ -48,6 +48,18 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 
 ---
 
+---
+
+## ⚙️ Backend & Server-Side Libraries
+
+| Library | Description | Example |
+|---------|-------------|---------|
+| [Express.js](https://expressjs.com/) | Fast, minimal Node.js web framework | `const app = express(); app.get('/', (req,res)=>res.send('Hello World'))` |
+| [Mongoose](https://mongoosejs.com/) | MongoDB ODM for Node.js | `const User = mongoose.model('User', userSchema);` |
+| [Socket.io](https://socket.io/) | Real-time WebSockets | `io.on('connection', socket => { socket.emit('msg', 'Hello'); })` |
+
+---
+
 ## 🎵 Audio & Multimedia
 
 | Library | Description | Example |
