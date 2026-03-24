@@ -1,100 +1,97 @@
-# 🌟 Beginner-Friendly JavaScript Libraries
-
-A curated list of useful JavaScript libraries for beginners. These libraries help you learn faster, make your projects interactive, and improve your web development skills.
+# 🌟 More Beginner-Friendly JavaScript Libraries
 
 ---
 
-## 📦 Utility Libraries
+## 📦 Utility Libraries (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [Lodash](https://lodash.com) | Utilities for arrays, objects, strings, and more | `_.map([1,2,3], n => n*2)` |
-| [Axios](https://axios-http.com/) | Promise-based HTTP client | `axios.get("https://jsonplaceholder.typicode.com/todos/1")` |
-| [Day.js](https://day.js.org/) | Lightweight date & time manipulation | `dayjs().format("YYYY-MM-DD HH:mm:ss")` |
-| [uuid](https://www.uuidgenerator.net/) | Generate unique IDs | `uuidv4()` |
-| [Typed.js](https://mattboldt.com/demos/typed-js/) | Animated typing effects for text | `new Typed('.element', { strings: ["Hello","World"], typeSpeed: 50 })` |
-| [jQuery](https://jquery.com/) | Simplifies DOM manipulation, event handling, and AJAX | `$('.element').hide();` |
-| [Moment.js](https://momentjs.com/) | Parse, validate, manipulate, and display dates | `moment().format('YYYY-MM-DD');` |
+| [Ramda](https://ramdajs.com/) | Functional programming utilities | `R.map(x => x * 2, [1,2,3])` |
+| [Validator.js](https://github.com/validatorjs/validator.js) | String validation (email, URL, etc.) | `validator.isEmail("test@gmail.com")` |
+| [qs](https://github.com/ljharb/qs) | Query string parsing & stringifying | `qs.parse('a=1&b=2')` |
+| [nanoid](https://github.com/ai/nanoid) | Tiny unique ID generator | `nanoid()` |
 
 ---
 
-## 🎨 Animation & UI Libraries
+## 🎨 Animation & UI Libraries (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [GSAP](https://gsap.com/resources/) | Smooth animations | `gsap.to(".box", {x:100, duration:2})` |
-| [Framer Motion](https://motion.dev/) | React animations | `<motion.div animate={{x:100}} />` |
-| [Anime.js](https://animejs.com/) | Lightweight DOM & SVG animations | `anime({targets: '.box', translateX: 250})` |
-| [AOS](https://michalsnik.github.io/aos/) | Scroll animations | `<div data-aos="fade-up"></div>` |
-| [ScrollReveal](https://scrollrevealjs.org/) | Scroll animations | `ScrollReveal().reveal('.box', {duration:2000})` |
-| [Toastify](https://apvarun.github.io/toastify-js/) | Simple toast notifications | `Toastify({ text: "Hello World" }).showToast();` |
+| [Lottie Web](https://airbnb.io/lottie/#/) | Render animations from JSON (After Effects) | `lottie.loadAnimation({...})` |
+| [Hover.css](https://ianlunn.github.io/Hover/) | CSS hover effects | `<button class="hvr-grow">Hover</button>` |
+| [Tippy.js](https://atomiks.github.io/tippyjs/) | Tooltips & popovers | `tippy('.btn', { content: 'Hello!' })` |
+| [Micromodal](https://micromodal.vercel.app/) | Lightweight modal dialogs | `MicroModal.show('modal-1')` |
+
 ---
 
-## 📊 Charts & Data Visualization
+## 📊 Charts & Data Visualization (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [Chart.js](https://www.chartjs.org/) | Charts & graphs | `new Chart(ctx, {type:"bar", data:{labels:["A","B"], datasets:[{data:[5,10]}]}})` |
-| [D3.js](https://d3js.org/) | Interactive data visualizations | `d3.select('svg').selectAll('rect').data(data).enter().append('rect')` |
+| [Recharts](https://recharts.org/) | Charts for React | `<LineChart data={data}></LineChart>` |
+| [ApexCharts](https://apexcharts.com/) | Modern charts | `new ApexCharts(el, options).render()` |
+| [ECharts](https://echarts.apache.org/) | Powerful visualization library | `echarts.init(dom).setOption(option)` |
 
 ---
 
-## ⚛️ React & Frontend Libraries
+## ⚛️ React & Frontend Libraries (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [React](https://react.dev/) | UI components | `<h1>Hello, React!</h1>` |
-| [React Router](https://reactrouter.com/) | Routing in React apps | `<Route path="/about" element={<About />} />` |
+| [Redux Toolkit](https://redux-toolkit.js.org/) | State management (modern Redux) | `createSlice({...})` |
+| [Zustand](https://zustand-demo.pmnd.rs/) | Lightweight state management | `create(set => ({count:0}))` |
+| [React Query](https://tanstack.com/query/latest) | Data fetching & caching | `useQuery(['todos'], fetchTodos)` |
+| [Formik](https://formik.org/) | Form handling in React | `<Formik initialValues={{}} />` |
+| [React Hook Form](https://react-hook-form.com/) | Simple & performant forms | `useForm()` |
 
 ---
 
----
-
-## ⚙️ Backend & Server-Side Libraries
+## ⚙️ Backend & Server-Side Libraries (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [Express.js](https://expressjs.com/) | Fast, minimal Node.js web framework | `const app = express(); app.get('/', (req,res)=>res.send('Hello World'))` |
-| [Mongoose](https://mongoosejs.com/) | MongoDB ODM for Node.js | `const User = mongoose.model('User', userSchema);` |
-| [Socket.io](https://socket.io/) | Real-time WebSockets | `io.on('connection', socket => { socket.emit('msg', 'Hello'); })` |
+| [Nodemon](https://nodemon.io/) | Auto-restart server on changes | `nodemon app.js` |
+| [Cors](https://www.npmjs.com/package/cors) | Enable cross-origin requests | `app.use(cors())` |
+| [Dotenv](https://www.npmjs.com/package/dotenv) | Manage environment variables | `require('dotenv').config()` |
+| [Passport.js](http://www.passportjs.org/) | Authentication middleware | `passport.use(...)` |
 
 ---
 
-## 🎵 Audio & Multimedia
+## 🎵 Audio & Multimedia (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [Howler.js](https://howlerjs.com/) | Play audio in browser | `new Howl({src:['sound.mp3']}).play()` |
-| [Clipboard.js](https://clipboardjs.com/) | Copy text to clipboard | `new ClipboardJS('.btn')` |
-| [Notyf](https://carlosroso.com/notyf/) | Toast notifications | `notyf.success('Success!')` |
+| [Tone.js](https://tonejs.github.io/) | Web audio framework | `new Tone.Synth().toDestination().triggerAttackRelease("C4", "8n")` |
+| [Video.js](https://videojs.com/) | HTML5 video player | `videojs('my-video')` |
 
 ---
 
-## 🖼️ Graphics & 3D
+## 🖼️ Graphics & 3D (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [Three.js](https://threejs.org/) | 3D graphics & animations | `new THREE.Mesh(geometry, material)` |
-| [Vivus.js](https://maxwellito.github.io/vivus/) | SVG drawing animations | `new Vivus('my-svg', {duration:200})` |
+| [PixiJS](https://pixijs.com/) | 2D WebGL renderer | `new PIXI.Application()` |
+| [Paper.js](http://paperjs.org/) | Vector graphics scripting | `new Path.Circle(new Point(50,50), 30)` |
 
 ---
 
-## 🔐 Authentication & Security
+## 🔐 Authentication & Security (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [JWT](https://jwt.io/) | JSON Web Tokens for authentication | `const token = jwt.sign({ id: user.id }, secret);` |
-| [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) | Password hashing | `const hash = bcrypt.hashSync('password', 10);` |
+| [Helmet](https://helmetjs.github.io/) | Secure Express apps | `app.use(helmet())` |
+| [Crypto-js](https://github.com/brix/crypto-js) | Encryption utilities | `CryptoJS.SHA256("text")` |
 
 ---
 
-## 🛠️ Miscellaneous Libraries
+## 🛠️ Miscellaneous Libraries (More)
 
 | Library | Description | Example |
 |---------|-------------|---------|
-| [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/) | Responsive carousels | `$('.owl-carousel').owlCarousel({loop:true})` |
-| [Sortable.js](https://sortablejs.github.io/Sortable/) | Drag-and-drop sorting | `Sortable.create(document.getElementById('items'))` |
-| [Jarallax](https://github.com/nk-o/jarallax) | Parallax backgrounds | `jarallax(document.querySelectorAll('.jarallax'), {speed:0.5})` |
-| [SweetAlert2](https://sweetalert2.github.io/) | Beautiful, customizable alerts & modals | `Swal.fire('Hello world!')` |
+| [Fuse.js](https://fusejs.io/) | Fuzzy search | `new Fuse(list).search("apple")` |
+| [Marked](https://marked.js.org/) | Markdown parser | `marked("# Hello")` |
+| [FileSaver.js](https://github.com/eligrey/FileSaver.js) | Save files in browser | `saveAs(blob, "file.txt")` |
+| [Screenfull.js](https://github.com/sindresorhus/screenfull.js) | Fullscreen API wrapper | `screenfull.toggle()` |
+
 
 ---
