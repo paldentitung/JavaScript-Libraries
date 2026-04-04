@@ -1,8 +1,8 @@
-# 🌟 More Beginner-Friendly JavaScript Libraries
+# 🌟 Beginner-Friendly JavaScript Libraries
 
 ---
 
-## 📦 Utility Libraries (More)
+## 📦 Utility Libraries
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -13,10 +13,11 @@
 | [Lodash](https://lodash.com/) | Utility functions for arrays, objects, strings | `_.cloneDeep(obj)` |
 | [Day.js](https://day.js.org/) | Lightweight date manipulation | `dayjs().format('YYYY-MM-DD')` |
 | [Immer](https://immerjs.github.io/immer/) | Immutable state management made easy | `produce(state, draft => { draft.count++ })` |
+| [Zod](https://zod.dev/) | Type-safe schema validation (great for forms & APIs) | `z.object({ name: z.string() })` |
 
 ---
 
-## 🎨 Animation & UI Libraries (More)
+## 🎨 Animation & UI Libraries
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -30,7 +31,7 @@
 
 ---
 
-## 📊 Charts & Data Visualization (More)
+## 📊 Charts & Data Visualization
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -42,7 +43,7 @@
 
 ---
 
-## ⚛️ React & Frontend Libraries (More)
+## ⚛️ React & Frontend Libraries
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -56,7 +57,7 @@
 
 ---
 
-## ⚙️ Backend & Server-Side Libraries (More)
+## ⚙️ Backend & Server-Side Libraries
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -70,7 +71,7 @@
 
 ---
 
-## 🎵 Audio & Multimedia (More)
+## 🎵 Audio & Multimedia
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -81,7 +82,7 @@
 
 ---
 
-## 🖼️ Graphics & 3D (More)
+## 🖼️ Graphics & 3D
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -93,7 +94,7 @@
 
 ---
 
-## 🔐 Authentication & Security (More)
+## 🔐 Authentication & Security
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -104,7 +105,7 @@
 
 ---
 
-## 🛠️ Miscellaneous Libraries (More)
+## 🛠️ Miscellaneous Libraries
 
 | Library | Description | Example |
 |---------|-------------|---------|
@@ -115,3 +116,6 @@
 | [Axios](https://axios-http.com/) | HTTP requests | `axios.get('/api/data')` |
 | [Socket.io](https://socket.io/) | Real-time communication | `io.connect()` |
 | [uuid](https://github.com/uuidjs/uuid) | Generate unique identifiers | `uuidv4()` |
+
+---
+
